@@ -30,12 +30,7 @@ kotlin {
             // put your Multiplatform dependencies here
         }
         commonTest.dependencies {
-            implementation(kotlin("test"))
-        }
-        val androidUnitTest by getting {
-            dependencies {
-                implementation(libs.junit)
-            }
+            implementation(libs.kotlin.test)
         }
     }
 }

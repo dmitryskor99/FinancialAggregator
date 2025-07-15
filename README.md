@@ -12,12 +12,13 @@ This sample demonstrates basic KMP features:
 
 ## How to use
 
-With the [KMP plugin for Android Studio](https://plugins.jetbrains.com/plugin/14936-kotlin-multiplatform-mobile) you can run, test, and debug shared code on both platforms without switching IDEs. Run and debug the application by selecting the corresponding configuration in the **Run configuration** menu. Run and debug shared module tests by pressing the gutter icon on a test class or method.
+With the [Kotlin Multiplatform plugin](https://plugins.jetbrains.com/plugin/14936-kotlin-multiplatform-mobile) you can run, test, and debug shared code on both platforms without switching IDEs. Run and debug the application by selecting the corresponding configuration in the **Run configuration** menu. Run and debug shared module tests by pressing the gutter icon on a test class or method.
 
 ## Related links
 
-* Visit [Kotlin Multiplatform Developer Portal](https://kotlinlang.org/lp/mobile/) to learn more about the technology
-* Check out the [Networking and data storage with KMP hands-on](https://play.kotlinlang.org/hands-on/Networking%20and%20Data%20Storage%20with%20Kotlin%20Multiplatfrom%20Mobile/) lab to learn how to create a mobile application for Android and iOS with a shared codebase with Ktor and SQLDelight.
+* Visit the [Kotlin Multiplatform landing page](https://www.jetbrains.com/kotlin-multiplatform/) to learn more about the technology
+* Get started with [Kotlin Multiplatform on developer portal](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)
+* Check out the [Networking and data storage with KMP hands-on](https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-ktor-sqldelight.html) lab to learn how to create a mobile application for Android and iOS with a shared codebase with Ktor and SQLDelight.
 
 
 
