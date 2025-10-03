@@ -1,0 +1,19 @@
+# detekt-config.yml
+build:
+  maxIssues: 0
+
+style:
+  MagicNumber:
+    active: true
+    ignoreNumbers: [-1, 0, 1] # допустимые числа
+  WildcardImport:
+    active: true
+
+complexity:
+  LargeClass:
+    active: true
+    threshold: 150
+
+potential-bugs:
+  UnsafeCallOnNullableType:
+    active: true
