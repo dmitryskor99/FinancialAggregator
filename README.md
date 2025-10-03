@@ -1,4 +1,4 @@
-[!](logo512x512.png)
+![Логотип](logo512x512.png)
 
 # FinancialAggregator
 
