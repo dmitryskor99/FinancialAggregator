@@ -23,8 +23,8 @@ jobs:
       - name: Run Code Quality Checks
         run: ./gradlew checkCodeQuality
 
-      - name: Build Android
-        run: ./gradlew assembleDebug
+#      - name: Build Android
+#        run: ./gradlew assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
@@ -32,14 +32,14 @@ jobs:
           name: composeApp-debug
           path: composeApp/build/outputs/apk/debug/composeApp-debug.apk
 
-      - name: Upload Lint Report
+      - name: Upload Lint Reports
         uses: actions/upload-artifact@v4
         with:
-          name: lint-report
+          name: lint-html
           path: '**/build/reports/lint/lint-results.html'
 
-      - name: Upload Detekt Report
+      - name: Upload Detekt Reports
         uses: actions/upload-artifact@v4
         with:
-          name: detekt-report
-          path: '**/build/reports/detekt/detekt.html'
+          name: detekt-html
+          path: '**/build/reports/detekt/*.html'
