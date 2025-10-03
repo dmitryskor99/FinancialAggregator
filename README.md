@@ -1,5 +1,7 @@
 [![official project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 
+[](logo512x512.png)
+
 # Kotlin Multiplatform Sample
 
 This is a **Kotlin Multiplatform (KMP) Project**. It includes iOS and Android applications with a native UI and a module with code shared on iOS and Android.
