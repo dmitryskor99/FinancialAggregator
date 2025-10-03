@@ -1,4 +1,4 @@
-rootProject.name = "kmm-basic-sample"
+rootProject.name = "financial_aggregator"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
