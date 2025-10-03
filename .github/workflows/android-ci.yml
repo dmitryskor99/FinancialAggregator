@@ -20,8 +20,8 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Run Detekt
-        run: ./gradlew detekt
+      - name: Run Code Quality Checks
+        run: ./gradlew checkCodeQuality
 
       - name: Build Android
         run: ./gradlew assembleDebug
@@ -31,3 +31,15 @@ jobs:
         with:
           name: composeApp-debug
           path: composeApp/build/outputs/apk/debug/composeApp-debug.apk
+
+      - name: Upload Lint Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: lint-report
+          path: '**/build/reports/lint/lint-results.html'
+
+      - name: Upload Detekt Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: detekt-report
+          path: '**/build/reports/detekt/detekt.html'
